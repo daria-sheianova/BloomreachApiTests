@@ -11,12 +11,12 @@ public class TestData {
             setBaseUri("https://restful-booker.herokuapp.com/booking/").
             build();
 
+    //Block with requests
     public static String authenticationRequestBody = "{\n" +
             "    \"username\" : \"admin\",\n" +
             "    \"password\" : \"password123\"\n" +
             "}";
 
-    //Block with requests
     public static String createNewBookingRequest_JohnMacintosh = "{" +
             "\"firstname\" : \"John\",\n" +
             "    \"lastname\" : \"Macintosh\",\n" +
