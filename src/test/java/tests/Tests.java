@@ -30,7 +30,6 @@ public class Tests {
             path("bookingid");
 
         testData.setBookingId_Macintosh(bookingId_Macintosh);
-        System.out.println(testData.getBookingId_Macintosh());
     }
 
     @Test
